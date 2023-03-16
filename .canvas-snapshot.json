@@ -105,7 +105,7 @@
           "right": "A programming mechanism that lets us focus on essential functionality and hide the implementation details.",
           "comments": "",
           "comments_html": "",
-          "match_id": 9866
+          "match_id": 303
         },
         {
           "id": "760",
@@ -114,7 +114,7 @@
           "right": "A programming mechanism that wraps up data in a single unit and keeps it safe from outside interference.",
           "comments": "",
           "comments_html": "",
-          "match_id": 2989
+          "match_id": 8560
         },
         {
           "id": "9699",
@@ -123,7 +123,7 @@
           "right": "A mechanism in which one class is allowed to derive the features (attributes and methods) of another class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 4464
+          "match_id": 1760
         },
         {
           "id": "9068",
@@ -132,7 +132,7 @@
           "right": "It is the ability for an object or method to take on many forms.",
           "comments": "",
           "comments_html": "",
-          "match_id": 6187
+          "match_id": 8992
         }
       ],
       "variables": null,
@@ -142,23 +142,23 @@
       "matches": [
         {
           "text": "A programming mechanism that lets us focus on essential functionality and hide the implementation details.",
-          "match_id": 9866
+          "match_id": 303
         },
         {
           "text": "A programming mechanism that wraps up data in a single unit and keeps it safe from outside interference.",
-          "match_id": 2989
+          "match_id": 8560
         },
         {
           "text": "A mechanism in which one class is allowed to derive the features (attributes and methods) of another class.",
-          "match_id": 4464
+          "match_id": 1760
         },
         {
           "text": "It is the ability for an object or method to take on many forms.",
-          "match_id": 6187
+          "match_id": 8992
         },
         {
           "text": "I don't know.",
-          "match_id": 5398
+          "match_id": 4925
         }
       ],
       "matching_answer_incorrect_matches": "I don't know."
@@ -185,7 +185,7 @@
           "text": "",
           "html": "<p>3</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle, and</code>Car<code>\ndefines two additional fields</code>make<code>and</code>model`.</p>",
+          "comments_html": "<p>Correct! Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle</code>, and <code>Car</code>\ndefines two additional fields <code>make</code> and <code>model</code>.</p>",
           "weight": 100.0
         },
         {
@@ -193,7 +193,7 @@
           "text": "",
           "html": "<p>1</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect. Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle, and</code>Car<code>\ndefines two additional fields</code>make<code>and</code>model`.</p>",
+          "comments_html": "<p>Incorrect. Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle</code>, and <code>Car</code>\ndefines two additional fields <code>make</code> and <code>model</code>.</p>",
           "weight": 0.0
         },
         {
@@ -201,7 +201,7 @@
           "text": "",
           "html": "<p>2</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect. Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle, and</code>Car<code>\ndefines two additional fields</code>make<code>and</code>model`.</p>",
+          "comments_html": "<p>Incorrect. Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle</code>, and <code>Car</code>\ndefines two additional fields <code>make</code> and <code>model</code>.</p>",
           "weight": 0.0
         }
       ],
@@ -599,7 +599,7 @@
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">extends</span> <span class=\"nc\">Drivable</span><span class=\"o\">,</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n<code>public class Car implements Drivable, Washable {</code></p>",
+          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:<br>\n<code>public class Car implements Drivable, Washable {</code></p>",
           "weight": 0.0
         },
         {
@@ -607,7 +607,7 @@
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">extends</span> <span class=\"nc\">Drivable</span> <span class=\"kd\">implements</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n<code>public class Car implements Drivable, Washable {</code></p>",
+          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:<br>\n<code>public class Car implements Drivable, Washable {</code></p>",
           "weight": 0.0
         },
         {
