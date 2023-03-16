@@ -105,7 +105,7 @@
           "right": "A programming mechanism that lets us focus on essential functionality and hide the implementation details.",
           "comments": "",
           "comments_html": "",
-          "match_id": 3129
+          "match_id": 9866
         },
         {
           "id": "760",
@@ -114,7 +114,7 @@
           "right": "A programming mechanism that wraps up data in a single unit and keeps it safe from outside interference.",
           "comments": "",
           "comments_html": "",
-          "match_id": 2746
+          "match_id": 2989
         },
         {
           "id": "9699",
@@ -123,7 +123,7 @@
           "right": "A mechanism in which one class is allowed to derive the features (attributes and methods) of another class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 5577
+          "match_id": 4464
         },
         {
           "id": "9068",
@@ -132,7 +132,7 @@
           "right": "It is the ability for an object or method to take on many forms.",
           "comments": "",
           "comments_html": "",
-          "match_id": 2992
+          "match_id": 6187
         }
       ],
       "variables": null,
@@ -142,23 +142,23 @@
       "matches": [
         {
           "text": "A programming mechanism that lets us focus on essential functionality and hide the implementation details.",
-          "match_id": 3129
+          "match_id": 9866
         },
         {
           "text": "A programming mechanism that wraps up data in a single unit and keeps it safe from outside interference.",
-          "match_id": 2746
+          "match_id": 2989
         },
         {
           "text": "A mechanism in which one class is allowed to derive the features (attributes and methods) of another class.",
-          "match_id": 5577
+          "match_id": 4464
         },
         {
           "text": "It is the ability for an object or method to take on many forms.",
-          "match_id": 2992
+          "match_id": 6187
         },
         {
           "text": "I don't know.",
-          "match_id": 3335
+          "match_id": 5398
         }
       ],
       "matching_answer_incorrect_matches": "I don't know."
@@ -279,7 +279,7 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 5690,
+          "id": "5690",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! </p>",
@@ -287,7 +287,7 @@
           "html": "<p><code>Vehicle v1 = new Vehicle();</code></p>"
         },
         {
-          "id": 9770,
+          "id": "9770",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! </p>",
@@ -295,7 +295,7 @@
           "html": "<p><code>Truck t1 = new Truck();</code></p>"
         },
         {
-          "id": 7013,
+          "id": "7013",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! <code>Truck</code> is a subclass of <code>Vehicle</code>.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
@@ -303,7 +303,7 @@
           "html": "<p><code>Vehicle v2 = new Truck();</code></p>"
         },
         {
-          "id": 560,
+          "id": "560",
           "text": "",
           "comments": "",
           "comments_html": "<p>Incorrect. <code>Vehicle</code> is a superclass of <code>Truck</code>.  A variable declared with the subclass type\ncan't be assigned to an object of the superclass type.</p>",
@@ -311,7 +311,7 @@
           "html": "<p><code>Truck t2 = new Vehicle();</code></p>"
         },
         {
-          "id": 8761,
+          "id": "8761",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Every class is a subclass of <code>Object</code>.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
@@ -344,15 +344,15 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 8735,
+          "id": "8735",
           "text": "",
           "comments": "",
           "comments_html": "<p>Incorrect.  <code>Vehicle</code> is an abstract class that can't be instantiated.</p>",
-          "weight": 100.0,
+          "weight": 0.0,
           "html": "<p><code>Vehicle v1 = new Vehicle();</code></p>"
         },
         {
-          "id": 7740,
+          "id": "7740",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
@@ -360,7 +360,7 @@
           "html": "<p><code>Truck t1 = new Truck();</code></p>"
         },
         {
-          "id": 2448,
+          "id": "2448",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! <code>Truck</code> is a subclass of <code>Vehicle</code>.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
@@ -368,7 +368,7 @@
           "html": "<p><code>Vehicle v2 = new Truck();</code></p>"
         },
         {
-          "id": 9744,
+          "id": "9744",
           "text": "",
           "comments": "",
           "comments_html": "<p>Incorrect.  <code>Drivable</code> is an interface and can't be instantiated.</p>",
@@ -376,7 +376,7 @@
           "html": "<p><code>Drivable d1 = new Drivable();</code></p>"
         },
         {
-          "id": 3521,
+          "id": "3521",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! <code>Truck</code> implements the <code>Drivable</code> interface.  A variable declared with the interface type\ncan be assigned to an object of a class that implements the interface.</p>",
@@ -546,17 +546,17 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 1088,
+          "id": 838,
           "text": "",
-          "html": "<p><code>Truck</code> does not override the <code>honk()</code>\nmethod so the code won't compile due to the call <code>super.honk();</code></p>",
+          "html": "<p><code>Truck</code> does not override the <code>honk()</code> method so the code won't compile due to the call <code>super.honk();</code></p>",
           "comments": "",
           "comments_html": "<p>Incorrect. \nSince <code>Truck</code> does not override the <code>honk()</code> method, <code>Truck</code>\ninherits the method from its superclass <code>Vehicle</code>.  The call\n<code>super.honk();</code> will invoke the method inherited from the <code>Vehicle</code> superclass.\nThe correct output is:<br>\ntoot<br>\nhonk</p>",
           "weight": 0.0
         },
         {
-          "id": 784,
+          "id": 6555,
           "text": "",
-          "html": "<p>toot&lt;br&gt;\nhonk</p>",
+          "html": "<p>toot<br>\nhonk</p>",
           "comments": "",
           "comments_html": "<p>Correct.\nSince <code>Truck</code> does not override the <code>honk()</code> method, <code>Truck</code>\ninherits the method from its superclass <code>Vehicle</code>.  The call\n<code>super.honk();</code> will invoke the method inherited from the <code>Vehicle</code> superclass.</p>",
           "weight": 100.0
@@ -617,14 +617,6 @@
           "comments": "",
           "comments_html": "<p>Correct.  <code>Drivable</code> and <code>Washable</code> are interfaces.  <code>Car</code> must override the abstract\nmethods defined in each interface.</p>",
           "weight": 100.0
-        },
-        {
-          "id": 339,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">implements</span> <span class=\"nc\">Drivable</span> <span class=\"n\">and</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n<code>public class Car implements Drivable, Washable {</code></p>",
-          "weight": 0.0
         },
         {
           "id": 3324,
