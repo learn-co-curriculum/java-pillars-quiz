@@ -1,17 +1,17 @@
 {
   "quiz": {
     "id": 45551,
-    "title": "OOP Foundations Quiz",
+    "title": "Quiz 1 - OOP Foundations",
     "html_url": "https://learning.flatironschool.com/courses/6677/quizzes/45551",
     "mobile_url": "https://learning.flatironschool.com/courses/6677/quizzes/45551?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-pillars-quiz\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-pillars-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge of the OOP Pillars! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-pillars-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-pillars-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge!\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
     "shuffle_answers": true,
     "show_correct_answers": true,
     "scoring_policy": "keep_highest",
-    "allowed_attempts": -1,
+    "allowed_attempts": 3,
     "one_question_at_a_time": true,
     "question_count": 10,
     "points_possible": 10.0,
@@ -70,8 +70,8 @@
     "one_time_results": false,
     "only_visible_to_overrides": false,
     "assignment_group_id": 20002,
-    "show_correct_answers_last_attempt": false,
-    "version_number": 4,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 5,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -99,40 +99,40 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 7773,
+          "id": "7773",
           "text": "Abstraction",
           "left": "Abstraction",
           "right": "A programming mechanism that lets us focus on essential functionality and hide the implementation details.",
           "comments": "",
           "comments_html": "",
-          "match_id": 1191
+          "match_id": 3129
         },
         {
-          "id": 760,
+          "id": "760",
           "text": "Encapsulation",
           "left": "Encapsulation",
           "right": "A programming mechanism that wraps up data in a single unit and keeps it safe from outside interference.",
           "comments": "",
           "comments_html": "",
-          "match_id": 111
+          "match_id": 2746
         },
         {
-          "id": 9699,
+          "id": "9699",
           "text": "Inheritance",
           "left": "Inheritance",
           "right": "A mechanism in which one class is allowed to derive the features (attributes and methods) of another class.",
           "comments": "",
           "comments_html": "",
-          "match_id": 8884
+          "match_id": 5577
         },
         {
-          "id": 9068,
+          "id": "9068",
           "text": "Polymorphism",
           "left": "Polymorphism",
           "right": "It is the ability for an object or method to take on many forms.",
           "comments": "",
           "comments_html": "",
-          "match_id": 5717
+          "match_id": 2992
         }
       ],
       "variables": null,
@@ -142,23 +142,23 @@
       "matches": [
         {
           "text": "A programming mechanism that lets us focus on essential functionality and hide the implementation details.",
-          "match_id": 1191
+          "match_id": 3129
         },
         {
           "text": "A programming mechanism that wraps up data in a single unit and keeps it safe from outside interference.",
-          "match_id": 111
+          "match_id": 2746
         },
         {
           "text": "A mechanism in which one class is allowed to derive the features (attributes and methods) of another class.",
-          "match_id": 8884
+          "match_id": 5577
         },
         {
           "text": "It is the ability for an object or method to take on many forms.",
-          "match_id": 5717
+          "match_id": 2992
         },
         {
           "text": "I don't know.",
-          "match_id": 1672
+          "match_id": 3335
         }
       ],
       "matching_answer_incorrect_matches": "I don't know."
@@ -171,7 +171,7 @@
       "position": null,
       "question_name": "Inheritance",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>How many fields does each &lt;code&gt;Car&lt;/code&gt; object have?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"kd\">private</span> <span class=\"nc\">String</span> <span class=\"n\">id</span><span class=\"o\">;</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"kd\">private</span> <span class=\"nc\">String</span> <span class=\"n\">make</span><span class=\"o\">;</span>\n    <span class=\"kd\">private</span> <span class=\"nc\">String</span> <span class=\"n\">model</span><span class=\"o\">;</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+      "question_text": "<p>How many fields does each <code>Car</code> object have?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"kd\">private</span> <span class=\"nc\">String</span> <span class=\"n\">id</span><span class=\"o\">;</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"kd\">private</span> <span class=\"nc\">String</span> <span class=\"n\">make</span><span class=\"o\">;</span>\n    <span class=\"kd\">private</span> <span class=\"nc\">String</span> <span class=\"n\">model</span><span class=\"o\">;</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -185,7 +185,7 @@
           "text": "",
           "html": "<p>3</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Each instance of &lt;code&gt;Car&lt;/code&gt; has three fields: id, make, and model.\nThe &lt;code&gt;id&lt;/code&gt; field is inherited from &lt;code&gt;Vehicle&lt;/code&gt;, and &lt;code&gt;Car&lt;/code&gt;\ndefines two additional fields &lt;code&gt;make&lt;/code&gt; and &lt;code&gt;model&lt;/code&gt;.</p>",
+          "comments_html": "<p>Correct! Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle, and</code>Car<code>\ndefines two additional fields</code>make<code>and</code>model`.</p>",
           "weight": 100.0
         },
         {
@@ -193,7 +193,7 @@
           "text": "",
           "html": "<p>1</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect. Each instance of &lt;code&gt;Car&lt;/code&gt; has three fields: id, make, and model.\nThe &lt;code&gt;id&lt;/code&gt; field is inherited from &lt;code&gt;Vehicle&lt;/code&gt;, and &lt;code&gt;Car&lt;/code&gt;\ndefines two additional fields &lt;code&gt;make&lt;/code&gt; and &lt;code&gt;model&lt;/code&gt;.</p>",
+          "comments_html": "<p>Incorrect. Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle, and</code>Car<code>\ndefines two additional fields</code>make<code>and</code>model`.</p>",
           "weight": 0.0
         },
         {
@@ -201,15 +201,7 @@
           "text": "",
           "html": "<p>2</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect. Each instance of &lt;code&gt;Car&lt;/code&gt; has three fields: id, make, and model.\nThe &lt;code&gt;id&lt;/code&gt; field is inherited from &lt;code&gt;Vehicle&lt;/code&gt;, and &lt;code&gt;Car&lt;/code&gt;\ndefines two additional fields &lt;code&gt;make&lt;/code&gt; and &lt;code&gt;model&lt;/code&gt;.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 3450,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Each instance of &lt;code&gt;Car&lt;/code&gt; has three fields: id, make, and model.\nThe &lt;code&gt;id&lt;/code&gt; field is inherited from &lt;code&gt;Vehicle&lt;/code&gt;, and &lt;code&gt;Car&lt;/code&gt;\ndefines two additional fields &lt;code&gt;make&lt;/code&gt; and &lt;code&gt;model&lt;/code&gt;.</p>",
+          "comments_html": "<p>Incorrect. Each instance of <code>Car</code> has three fields: <code>id</code>, <code>make</code>, and <code>model</code>.\nThe <code>id</code> field is inherited from <code>Vehicle, and</code>Car<code>\ndefines two additional fields</code>make<code>and</code>model`.</p>",
           "weight": 0.0
         }
       ],
@@ -228,7 +220,7 @@
       "position": null,
       "question_name": "Inheritance",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>What is printed when the &lt;code&gt;main&lt;/code&gt; method executes?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span>  <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"honk\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"vroom\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Truck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span><span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"beep\"</span><span class=\"o\">);}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Truck</span> <span class=\"n\">t</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Truck</span><span class=\"o\">();</span>\n        <span class=\"n\">t</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n        <span class=\"n\">t</span><span class=\"o\">.</span><span class=\"na\">drive</span><span class=\"o\">();</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+      "question_text": "<p>What is printed when the <code>main</code> method executes?</p>\n<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span>  <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"honk\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"vroom\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Truck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span><span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"beep\"</span><span class=\"o\">);}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Truck</span> <span class=\"n\">t</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Truck</span><span class=\"o\">();</span>\n        <span class=\"n\">t</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n        <span class=\"n\">t</span><span class=\"o\">.</span><span class=\"na\">drive</span><span class=\"o\">();</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -238,19 +230,19 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 4290,
+          "id": 6285,
           "text": "",
-          "html": "<p>beep&lt;br&gt;\nvroom</p>",
+          "html": "<p>beep<br>\nvroom</p>",
           "comments": "",
-          "comments_html": "<p>Correct!  The &lt;code&gt;Truck&lt;/code&gt; class inherits method &lt;code&gt;drive()&lt;/code&gt; from the &lt;code&gt;Vehicle&lt;/code&gt; class\nand overrides the &lt;code&gt;horn()&lt;/code&gt; method.</p>",
+          "comments_html": "<p>Correct!  The <code>Truck</code> class inherits method <code>drive()</code> from the <code>Vehicle</code> class\nand overrides the <code>horn()</code> method.</p>",
           "weight": 100.0
         },
         {
-          "id": 7913,
+          "id": 9846,
           "text": "",
-          "html": "<p>honk&lt;br&gt;\nvroom</p>",
+          "html": "<p>honk<br>\nvroom</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  The &lt;code&gt;Truck&lt;/code&gt; class inherits method &lt;code&gt;drive()&lt;/code&gt; from the &lt;code&gt;Vehicle&lt;/code&gt; class\nand overrides the &lt;code&gt;horn()&lt;/code&gt; method. The correct output is:&lt;br&gt;\nbeep&lt;br&gt;\nvroom</p>",
+          "comments_html": "<p>Incorrect.  The <code>Truck</code> class inherits method <code>drive()</code> from the <code>Vehicle</code> class\nand overrides the <code>horn()</code> method. The correct output is:<br>\nbeep<br>\nvroom</p>",
           "weight": 0.0
         },
         {
@@ -258,15 +250,7 @@
           "text": "",
           "html": "<p>The code won't compile because Truck does not define a method named drive.</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  The &lt;code&gt;Truck&lt;/code&gt; class inherits method &lt;code&gt;drive()&lt;/code&gt; from the &lt;code&gt;Vehicle&lt;/code&gt; class\nand overrides the &lt;code&gt;horn()&lt;/code&gt; method. The correct output is:&lt;br&gt;\nbeep&lt;br&gt;\nvroom</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 6594,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>The &lt;code&gt;Truck&lt;/code&gt; class inherits method &lt;code&gt;drive()&lt;/code&gt; from the &lt;code&gt;Vehicle&lt;/code&gt; class\nand overrides the &lt;code&gt;horn()&lt;/code&gt; method. The correct output is:&lt;br&gt;\nbeep&lt;br&gt;\nvroom</p>",
+          "comments_html": "<p>Incorrect.  The <code>Truck</code> class inherits method <code>drive()</code> from the <code>Vehicle</code> class\nand overrides the <code>horn()</code> method. The correct output is:<br>\nbeep<br>\nvroom</p>",
           "weight": 0.0
         }
       ],
@@ -295,44 +279,44 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 9093,
+          "id": 5690,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! </p>",
           "weight": 100.0,
-          "html": "<p>Vehicle v1 = new Vehicle();</p>"
+          "html": "<p><code>Vehicle v1 = new Vehicle();</code></p>"
         },
         {
-          "id": 7546,
+          "id": 9770,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! </p>",
           "weight": 100.0,
-          "html": "<p>Truck t1 = new Truck();</p>"
+          "html": "<p><code>Truck t1 = new Truck();</code></p>"
         },
         {
-          "id": 9133,
+          "id": 7013,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Correct! Truck is a subclass of Vehicle.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
+          "comments_html": "<p>Correct! <code>Truck</code> is a subclass of <code>Vehicle</code>.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
           "weight": 100.0,
-          "html": "<p>Vehicle v2 = new Truck();</p>"
+          "html": "<p><code>Vehicle v2 = new Truck();</code></p>"
         },
         {
-          "id": 4797,
+          "id": 560,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Incorrect. Vehicle is a superclass of Truck.  A variable declared with the subclass type\ncan't be assigned to an object of the superclass type.</p>",
+          "comments_html": "<p>Incorrect. <code>Vehicle</code> is a superclass of <code>Truck</code>.  A variable declared with the subclass type\ncan't be assigned to an object of the superclass type.</p>",
           "weight": 0.0,
-          "html": "<p>Truck t2 = new Vehicle();</p>"
+          "html": "<p><code>Truck t2 = new Vehicle();</code></p>"
         },
         {
-          "id": 6139,
+          "id": 8761,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Correct! Every class is a subclass of Object.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
+          "comments_html": "<p>Correct! Every class is a subclass of <code>Object</code>.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
           "weight": 100.0,
-          "html": "<p>Object o = new Vehicle();</p>"
+          "html": "<p><code>Object o = new Vehicle();</code></p>"
         }
       ],
       "variables": null,
@@ -360,52 +344,44 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 7904,
+          "id": 8735,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Incorrect.  Vehicle is an abstract class that can't be instantiated.</p>",
+          "comments_html": "<p>Incorrect.  <code>Vehicle</code> is an abstract class that can't be instantiated.</p>",
           "weight": 100.0,
-          "html": "<p>Vehicle v1 = new Vehicle();</p>"
+          "html": "<p><code>Vehicle v1 = new Vehicle();</code></p>"
         },
         {
-          "id": 3735,
+          "id": 7740,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct!</p>",
           "weight": 100.0,
-          "html": "<p>Truck t1 = new Truck();</p>"
+          "html": "<p><code>Truck t1 = new Truck();</code></p>"
         },
         {
-          "id": 6491,
+          "id": 2448,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Correct! Truck is a subclass of Vehicle.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
+          "comments_html": "<p>Correct! <code>Truck</code> is a subclass of <code>Vehicle</code>.  A variable declared with the superclass type\ncan be assigned to an object of the subclass type.</p>",
           "weight": 100.0,
-          "html": "<p>Vehicle v2 = new Truck();</p>"
+          "html": "<p><code>Vehicle v2 = new Truck();</code></p>"
         },
         {
-          "id": 5353,
+          "id": 9744,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Incorrect. Vehicle is a superclass of Truck.  A variable declared with the subclass type\ncan't be assigned to an object of the superclass type.</p>",
+          "comments_html": "<p>Incorrect.  <code>Drivable</code> is an interface and can't be instantiated.</p>",
           "weight": 0.0,
-          "html": "<p>Truck t2 = new Vehicle();</p>"
+          "html": "<p><code>Drivable d1 = new Drivable();</code></p>"
         },
         {
-          "id": 4503,
+          "id": 3521,
           "text": "",
           "comments": "",
-          "comments_html": "<p>Incorrect.  Drivable is an interface and can't be instantiated.</p>",
-          "weight": 0.0,
-          "html": "<p>Drivable d1 = new Drivable();</p>"
-        },
-        {
-          "id": 2384,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct! Truck implements the Drivable interface.  A variable declared with the interface type\ncan be assigned to an object of a class that implements the interface.</p>",
+          "comments_html": "<p>Correct! <code>Truck</code> implements the <code>Drivable</code> interface.  A variable declared with the interface type\ncan be assigned to an object of a class that implements the interface.</p>",
           "weight": 100.0,
-          "html": "<p>Drivable d2 = new Truck();</p>"
+          "html": "<p><code>Drivable d2 = new Truck();</code></p>"
         }
       ],
       "variables": null,
@@ -423,7 +399,7 @@
       "position": null,
       "question_name": "Polymorphism",
       "question_type": "multiple_choice_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span>  <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"honk\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Truck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span><span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"beep\"</span><span class=\"o\">);}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Vehicle</span> <span class=\"n\">v</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Truck</span><span class=\"o\">();</span>\n        <span class=\"n\">v</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the &lt;code&gt;main&lt;/code&gt; method executes?</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span>  <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"honk\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Truck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span><span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"beep\"</span><span class=\"o\">);}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">Vehicle</span> <span class=\"n\">v</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">Truck</span><span class=\"o\">();</span>\n        <span class=\"n\">v</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the <code>main</code> method executes?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -437,7 +413,7 @@
           "text": "",
           "html": "<p>honk</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  The variable &lt;code&gt;v&lt;/code&gt; references an instance of class &lt;code&gt;Truck&lt;/code&gt;.\nDue to dynamic binding, Java executes the method based on the type of the object &lt;code&gt;Truck&lt;/code&gt;,\nnot the declared type of the variable &lt;code&gt;Vehicle&lt;/code&gt;.  The correct output is:&lt;br&gt;\nbeep</p>",
+          "comments_html": "<p>Incorrect.  The variable <code>v</code> references an instance of class <code>Truck</code>.\nDue to dynamic binding, Java executes the method based on the type\nof the object <code>Truck</code>, not the declared type of the variable <code>Vehicle</code>.\nThe correct output is:<br>\nbeep</p>",
           "weight": 0.0
         },
         {
@@ -445,7 +421,7 @@
           "text": "",
           "html": "<p>beep</p>",
           "comments": "",
-          "comments_html": "<p>Correct!  The variable &lt;code&gt;v&lt;/code&gt; references an instance of class &lt;code&gt;Truck&lt;/code&gt;.\nDue to dynamic binding, Java executes the method based on the type of the object &lt;code&gt;Truck&lt;/code&gt;,\nnot the declared type of the variable &lt;code&gt;Vehicle&lt;/code&gt;. </p>",
+          "comments_html": "<p>Correct!  The variable <code>v</code> references an instance of class <code>Truck</code>.\nDue to dynamic binding, Java executes the method based on the type\nof the object <code>Truck</code>, not the declared type of the variable <code>Vehicle</code>.</p>",
           "weight": 100.0
         }
       ],
@@ -483,9 +459,9 @@
         {
           "comments": "",
           "comments_html": "<p>Incorrect.  The <code>@Override</code> is recommended but optional.  A subclass method overrides a\nsuperclass method if it has the same signature. The <code>@Override</code> annotation tells the compiler\nto check and make sure the subclass method is actually overriding an inherited method.</p>",
-          "text": "False.",
+          "text": "False",
           "weight": 0,
-          "id": 3248
+          "id": 5872
         }
       ],
       "variables": null,
@@ -503,7 +479,7 @@
       "position": null,
       "question_name": "Super",
       "question_type": "multiple_choice_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span>  <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"toot\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Truck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span><span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"beep\"</span><span class=\"o\">);}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">FastTruck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Truck</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"kd\">super</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"honk\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">FastTruck</span> <span class=\"n\">t</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">FastTruck</span><span class=\"o\">();</span>\n        <span class=\"n\">t</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the &lt;code&gt;main&lt;/code&gt; method executes?</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span>  <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"toot\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Truck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span><span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"beep\"</span><span class=\"o\">);}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">FastTruck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Truck</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"kd\">super</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"honk\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">FastTruck</span> <span class=\"n\">t</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">FastTruck</span><span class=\"o\">();</span>\n        <span class=\"n\">t</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the <code>main</code> method executes?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -513,19 +489,19 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 8391,
+          "id": 1594,
           "text": "",
-          "html": "<p>toot&lt;br&gt;\nhonk</p>",
+          "html": "<p>toot<br>\nhonk</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  The call &lt;code&gt;super.horn();&lt;/code&gt; invokes\nthe method inherited from the &lt;code&gt;Truck&lt;/code&gt; superclass.\nThe correct output is:&lt;br&gt;\nbeep&lt;br&gt;\nhonk</p>",
+          "comments_html": "<p>Incorrect.  The call <code>super.horn()</code> invokes\nthe method inherited from the <code>Truck</code> superclass.\nThe correct output is:<br>\nbeep<br>\nhonk</p>",
           "weight": 0.0
         },
         {
-          "id": 6638,
+          "id": 9071,
           "text": "",
-          "html": "<p>beep&lt;br&gt;\nhonk</p>",
+          "html": "<p>beep<br>\nhonk</p>",
           "comments": "",
-          "comments_html": "<p>Correct.  The call &lt;code&gt;super.horn();&lt;/code&gt; invokes\nthe method inherited from the &lt;code&gt;Truck&lt;/code&gt; superclass.</p>",
+          "comments_html": "<p>Correct.  The call <code>super.horn()</code> invokes\nthe method inherited from the <code>Truck</code> superclass.</p>",
           "weight": 100.0
         },
         {
@@ -533,7 +509,7 @@
           "text": "",
           "html": "<p>honk</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  The call &lt;code&gt;super.horn();&lt;/code&gt; invokes\nthe method inherited from the &lt;code&gt;Truck&lt;/code&gt; superclass.\nThe correct output is:&lt;br&gt;\nbeep&lt;br&gt;\nhonk</p>",
+          "comments_html": "<p>Incorrect.  The call <code>super.horn()</code> invokes\nthe method inherited from the <code>Truck</code> superclass.\nThe correct output is:<br>\nbeep<br>\nhonk</p>",
           "weight": 0.0
         },
         {
@@ -541,7 +517,7 @@
           "text": "",
           "html": "<p>beep</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  The call &lt;code&gt;t.horn()&lt;/code&gt; calls the method in the &lt;code&gt;FastTruck&lt;/code&gt;class.\nThe call &lt;code&gt;super.horn();&lt;/code&gt; invokes\nthe method inherited from the &lt;code&gt;Truck&lt;/code&gt; superclass.\nThe correct output is:&lt;br&gt;\nbeep&lt;br&gt;\nhonk</p>",
+          "comments_html": "<p>Incorrect.  The call<code>t.horn()</code> calls the method in the <code>FastTruck</code> class.\nThe call <code>super.horn()</code> invokes the method inherited from the <code>Truck</code> superclass.\nThe correct output is:<br>\nbeep<br>\nhonk</p>",
           "weight": 0.0
         }
       ],
@@ -558,9 +534,9 @@
       "quiz_group_id": null,
       "assessment_question_id": 540652,
       "position": null,
-      "question_name": "Interface",
+      "question_name": "Super",
       "question_type": "multiple_choice_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">interface</span> <span class=\"nc\">Drivable</span> <span class=\"o\">{</span>\n    <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">();</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">interface</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n    <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">();</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>Which class definition will compile?</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span>  <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"toot\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Truck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"kd\">private</span> <span class=\"kt\">boolean</span> <span class=\"n\">v8Engine</span><span class=\"o\">;</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">FastTruck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Truck</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"kd\">super</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"honk\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">FastTruck</span> <span class=\"n\">t</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">FastTruck</span><span class=\"o\">();</span>\n        <span class=\"n\">t</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the <code>main</code> method executes?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -570,43 +546,27 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 3422,
+          "id": 1088,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">extends</span> <span class=\"nc\">Drivable</span><span class=\"o\">,</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+          "html": "<p><code>Truck</code> does not override the <code>honk()</code>\nmethod so the code won't compile due to the call <code>super.honk();</code></p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n&lt;code&gt;public class Car implements Drivable, Washable { &lt;/code&gt;</p>",
+          "comments_html": "<p>Incorrect. \nSince <code>Truck</code> does not override the <code>honk()</code> method, <code>Truck</code>\ninherits the method from its superclass <code>Vehicle</code>.  The call\n<code>super.honk();</code> will invoke the method inherited from the <code>Vehicle</code> superclass.\nThe correct output is:<br>\ntoot<br>\nhonk</p>",
           "weight": 0.0
         },
         {
-          "id": 3777,
+          "id": 784,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">extends</span> <span class=\"nc\">Drivable</span> <span class=\"kd\">implements</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+          "html": "<p>toot&lt;br&gt;\nhonk</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n&lt;code&gt;public class Car implements Drivable, Washable { &lt;/code&gt;</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 5758,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">implements</span> <span class=\"nc\">Drivable</span><span class=\"o\">,</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct.  <code>Drivable</code> and <code>Washable</code> are interfaces.  <code>Car</code> must override the abstract\nmethods defined in each interface.</p>",
+          "comments_html": "<p>Correct.\nSince <code>Truck</code> does not override the <code>honk()</code> method, <code>Truck</code>\ninherits the method from its superclass <code>Vehicle</code>.  The call\n<code>super.honk();</code> will invoke the method inherited from the <code>Vehicle</code> superclass.</p>",
           "weight": 100.0
         },
         {
-          "id": 5796,
+          "id": 4653,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">implements</span> <span class=\"nc\">Drivable</span> <span class=\"n\">and</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+          "html": "<p>honk</p>",
           "comments": "",
-          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n&lt;code&gt;public class Car implements Drivable, Washable { &lt;/code&gt;</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 2546,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">implements</span> <span class=\"nc\">Drivable</span><span class=\"o\">,</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">(</span><span class=\"nc\">String</span> <span class=\"n\">s</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">s</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Incorrect.  <code>Car</code> must override methods with signatures &lt;code&gt;public void drive()&lt;/code&gt;\nand &lt;code&gt;public void wash()&lt;/code&gt;</p>",
+          "comments_html": "<p>Incorrect.\nSince <code>Truck</code> does not override the <code>honk()</code> method, <code>Truck</code>\ninherits the method from its superclass <code>Vehicle</code>.  The call\n<code>super.honk();</code> will invoke the method inherited from the <code>Vehicle</code> superclass.\nThe correct output is:<br>\ntoot<br>\nhonk</p>",
           "weight": 0.0
         }
       ],
@@ -623,9 +583,9 @@
       "quiz_group_id": null,
       "assessment_question_id": 540653,
       "position": null,
-      "question_name": "Super",
+      "question_name": "Interface",
       "question_type": "multiple_choice_question",
-      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Vehicle</span>  <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span> <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"toot\"</span><span class=\"o\">);</span> <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Truck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Vehicle</span> <span class=\"o\">{</span>\n    <span class=\"kd\">private</span> <span class=\"kt\">boolean</span> <span class=\"n\">v8Engine</span><span class=\"o\">;</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">FastTruck</span> <span class=\"kd\">extends</span> <span class=\"nc\">Truck</span> <span class=\"o\">{</span>\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">horn</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"kd\">super</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"honk\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Main</span> <span class=\"o\">{</span>\n    <span class=\"kd\">public</span> <span class=\"kd\">static</span> <span class=\"kt\">void</span> <span class=\"nf\">main</span><span class=\"o\">(</span><span class=\"nc\">String</span><span class=\"o\">[]</span> <span class=\"n\">args</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">FastTruck</span> <span class=\"n\">t</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">FastTruck</span><span class=\"o\">();</span>\n        <span class=\"n\">t</span><span class=\"o\">.</span><span class=\"na\">horn</span><span class=\"o\">();</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>What is printed when the &lt;code&gt;main&lt;/code&gt; method executes?</p>",
+      "question_text": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">interface</span> <span class=\"nc\">Drivable</span> <span class=\"o\">{</span>\n    <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">();</span>\n<span class=\"o\">}</span>\n\n<span class=\"kd\">public</span> <span class=\"kd\">interface</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n    <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">();</span>\n<span class=\"o\">}</span>\n</code></pre></div>\n<p>Which class definition will compile?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -635,27 +595,43 @@
       "neutral_comments_html": "",
       "answers": [
         {
-          "id": 2344,
+          "id": 8699,
           "text": "",
-          "html": "<p>&lt;code&gt;Truck&lt;/code&gt; does not override the &lt;code&gt;honk&lt;/code&gt; \nmethod so the code won't compile due to the call &lt;code&gt;super.honk();&lt;/code&gt;</p>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">extends</span> <span class=\"nc\">Drivable</span><span class=\"o\">,</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Incorrect. \nSince &lt;code&gt;Truck&lt;/code&gt; does not override the &lt;code&gt;honk&lt;/code&gt; method, &lt;code&gt;Truck&lt;/code&gt;\ninherits the method from its superclass &lt;code&gt;Vehicle&lt;/code&gt;.  The call\n&lt;code&gt;super.honk();&lt;/code&gt; will invoke the method inherited from the &lt;code&gt;Vehicle&lt;/code&gt; superclass.\nThe correct output is:&lt;br&gt;\ntoot&lt;br&gt;\nhonk</p>",
+          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n<code>public class Car implements Drivable, Washable {</code></p>",
           "weight": 0.0
         },
         {
-          "id": 8161,
+          "id": 2477,
           "text": "",
-          "html": "<p>toot&lt;br&gt;\nhonk</p>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">extends</span> <span class=\"nc\">Drivable</span> <span class=\"kd\">implements</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Correct.\nSince &lt;code&gt;Truck&lt;/code&gt;\ndoes not override the &lt;code&gt;honk()&lt;/code&gt; method, &lt;code&gt;Truck&lt;/code&gt; inherits the method\nfrom its superclass &lt;code&gt;Vehicle&lt;/code&gt;.\nThe call &lt;code&gt;super.horn();&lt;/code&gt; invokes\nthe method inherited from the &lt;code&gt;Vehicle&lt;/code&gt; superclass.</p>",
+          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n<code>public class Car implements Drivable, Washable {</code></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 7579,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">implements</span> <span class=\"nc\">Drivable</span><span class=\"o\">,</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Correct.  <code>Drivable</code> and <code>Washable</code> are interfaces.  <code>Car</code> must override the abstract\nmethods defined in each interface.</p>",
           "weight": 100.0
         },
         {
-          "id": 927,
+          "id": 339,
           "text": "",
-          "html": "<p>honk</p>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">implements</span> <span class=\"nc\">Drivable</span> <span class=\"n\">and</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"VROOM\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Incorrect.\nSince &lt;code&gt;Truck&lt;/code&gt; does not override the &lt;code&gt;honk&lt;/code&gt; method, &lt;code&gt;Truck&lt;/code&gt;\ninherits the method from its superclass &lt;code&gt;Vehicle&lt;/code&gt;.  The call\n&lt;code&gt;super.honk();&lt;/code&gt; will invoke the method inherited from the &lt;code&gt;Vehicle&lt;/code&gt; superclass.\nThe correct output is:&lt;br&gt;\ntoot&lt;br&gt;\nhonk</p>",
+          "comments_html": "<p>Incorrect.  <code>Drivable</code> and <code>Washable</code> are interfaces.  The correct class header should be:&lt;br&gt;\n<code>public class Car implements Drivable, Washable {</code></p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3324,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"kd\">public</span> <span class=\"kd\">class</span> <span class=\"nc\">Car</span> <span class=\"kd\">implements</span> <span class=\"nc\">Drivable</span><span class=\"o\">,</span> <span class=\"nc\">Washable</span> <span class=\"o\">{</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">drive</span><span class=\"o\">(</span><span class=\"nc\">String</span> <span class=\"n\">s</span><span class=\"o\">)</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"n\">s</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n\n    <span class=\"nd\">@Override</span>\n    <span class=\"kd\">public</span> <span class=\"kt\">void</span> <span class=\"nf\">wash</span><span class=\"o\">()</span> <span class=\"o\">{</span>\n        <span class=\"nc\">System</span><span class=\"o\">.</span><span class=\"na\">out</span><span class=\"o\">.</span><span class=\"na\">println</span><span class=\"o\">(</span><span class=\"s\">\"I'm clean!\"</span><span class=\"o\">);</span>\n    <span class=\"o\">}</span>\n<span class=\"o\">}</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>Incorrect.  <code>Car</code> must override methods with signatures <code>public void drive()</code>\nand <code>public void wash()</code>.</p>",
           "weight": 0.0
         }
       ],
